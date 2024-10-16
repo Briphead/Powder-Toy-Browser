@@ -42,7 +42,7 @@
 			status.innerText = 'Exception thrown, see JavaScript console';
 			status.style.display = 'initial';
 		};
-		create_powderbeta_loader().then(create_powderbeta => create_powder({
+		create_powder_loader().then(create_powder => create_powder({
 			canvas: (() => {
 				var canvas = document.getElementById('canvas');
 				canvas.addEventListener("webglcontextlost", e => {
